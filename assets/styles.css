@@ -1,0 +1,58 @@
+/* General body background with a local image */
+body {
+    color: #333333; /* Dark gray font color */
+    font-family: 'Arial', sans-serif; /* Formal font style */
+    text-align: center;
+}
+
+/* Header container styling */
+.header-container {
+    background-color: rgba(85, 85, 85, 0.8); /* Semi-transparent dark background */
+    color: #FFFFFF;
+    height: 50vh; /* Cover 50% of the viewport height */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin: 20px;
+}
+
+.header-container h1 {
+    font-size: 56px; /* Scaled up font size */
+    margin: 10px 0;
+    color: #FFFFFF; /* Ensures Car Price Prediction is white */
+}
+
+.header-container p {
+    font-size: 24px; /* Scaled up font size */
+    margin: 10px 0;
+}
+
+/* Styling the Enter Your Car Details section header */
+.details-header {
+    font-weight: bold;
+    font-size: 30px; /* Scaled up font size */
+    color: #000000; /* Black font color */
+    margin: 40px 0;
+}
+
+/* Inputs and labels */
+input, select {
+    font-size: 18px; /* Scaled up input and dropdown font size */
+    padding: 10px;
+}
+
+label {
+    font-size: 20px; /* Scaled up label font size */
+    font-weight: bold;
+}
+
+/* Footer styling */
+.footer-container {
+    margin-top: 30px;
+    color: #888888;
+    font-size: 16px; /* Scaled up font size */
+}
